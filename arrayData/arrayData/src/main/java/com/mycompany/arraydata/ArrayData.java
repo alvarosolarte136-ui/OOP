@@ -47,7 +47,6 @@ public class ArrayData {
                     System.out.println("::: REGISTER NEW USER :::");
                     System.out.println("\nUser Nro.: " + (firstNames.size()+1));   
             
-                    // Validación de Identificación Única
                     while (true) {
                         System.out.println("Identification number: ");   
                         ident_number = data.nextLine();
