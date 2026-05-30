@@ -39,7 +39,7 @@ public class Rolldices {
         
         while (lives > 0) {
             totalLanzamientos++;
-            System.out.println("\n--- Lanzamiento L" + totalLanzamientos + " ---");
+            System.out.println("\n--- Lanzamiento" + totalLanzamientos + " ---");
             
             dice1 = rolldices();
             dice2 = rolldices();
@@ -92,13 +92,10 @@ public class Rolldices {
             System.out.println("###################");
         }
         
-        System.out.println("\n=================================");
-        System.out.println("          INFORME FINAL          ");
-        System.out.println("=================================");
-        System.out.println("Número total de lanzamientos: " + totalLanzamientos);
+        System.out.println("######## INFORME FINAL ########");
+        System.out.println("Numero total de lanzamientos: " + totalLanzamientos);
         System.out.println("Total de tiros con suma par: " + totalPares);
         System.out.println("Total de tiros con suma impar: " + totalImpares);
         System.out.println("Total de tiros con dados iguales: " + totalIguales);
-        System.out.println("=================================");
     }
 }
